@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("pexels-william-choquette-1954524.jpg");
+        background-size: 100%;
+        height: 200;
+      
+    }
+    .left{
+       /* border: 3px solid red;*/
+       display: inline-block;
+       position: absolute;
+       left:70px;
+       top:30px;
+    
+    }
+    .logname{
+      color: red;
+      text-align: center;
+      margin: 0px;
+    }
+    .center{
+       /* border: 3px solid rgb(255, 213, 0);*/
+        display:block; 
+        margin:20px auto;
+        width:40%;
+    }
+    .right{
+       /* border: 3px solid green;*/
+        display: inline-block;
+        position: absolute;
+        right:50px;
+        top:40px;   
+    }
+    
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 20px 10px;
+        color:springgreen;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        color:cyan;
+        text-decoration: underline;
+    
+       
+    }
+    .btn{
+        font-size: 16px;
+        padding: 5px 15px;
+        border:2px solid grey;
+        background-color:rgb(247, 244, 240);
+        margin: 5px 5px;
+        border-radius: 10px
+        ;
+        
+    }
+    .btn:hover{
+        color:chartreuse;
+        background-color: blue;
+        border:2px solid grey;
+        
+    }
+    .container{
+        border:2px solid black;
+        width:50%;
+        margin:150px 100px;
+        padding: 30PX 30PX;
+        border-radius: 20px;
+   
+    }
+    .container h1{
+        text-align: center;
+        color:rgb(255, 0, 0);
+       font-size: 40px;
+       font-weight: 20px;
+    }
+    
+    .jfrom input{
+        border: 2px solid gray;
+        margin: 10px 20px;
+        padding: 10px 20px;
+        width: 450px;
+        border-radius: 20px;
+        font-size: 17px;
+    }
+    .btn1{
+        text-align: center;
+        font-size: 20px;
+        width:60%;
+        padding:10px 20PX;
+        margin:20px 50PX;
+        background-color: RGB(199,227,225);
+    }
+    .btn1:hover{
+        background-color: white;
+    }
+    .footer{
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+<header class="welcome">
+    <div class="left">
+        <img src="pngwing.png" alt="img" width="150px">
+        <div class="logname">ROCKSTAR GYM</div>
+        
+
+    </div>
+
+    <div class="center">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">details</a></li>
+            <li><a href="#">fitness package</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <button class="btn">sign in</button>
+        <button class="btn">sign up</button>
+    </div>
+</header>
+<body>
+    <div class="container">
+    <h1>JOIN NOW</h1>
+    <form action="ancd##">
+       <div class="jfrom">
+        <input type="text" placeholder="ENTER YOYR NAME">
+       </div>
+
+       <div class="jfrom">
+        <input type="text" placeholder="ENTER YOU GMAIL ID">
+       </div>
+
+       <div class="jfrom">
+        <input type="text" placeholder="PHONE NUMNBER">
+       </div>
+
+       <div class="jfrom">
+        <input type="text" placeholder="ENTER YOUR AGE">
+       </div>
+       <div class="jfrom">
+        <input type="text" placeholder="ENTER YOUR GENDER">
+       </div>
+       <button class="btn1">submit</button>
+    </form>
+</div>
+<div>
+    <footer class="footer">copyright@ This website belongs to rockstar</footer>
+</div>
+</body>
+</html>
